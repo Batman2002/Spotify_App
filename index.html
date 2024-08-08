@@ -5,7 +5,298 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+<style>
+    body{
+background-color: black;
+    }
+
+    .navigation_and_library{
+
+    }
+
+    .navigation{
+        width: 354px;
+        height: 174px;
+    }
+
+    .images{
+        display: flex;
+    align-items: center;
+    height: 45px;
+    gap: 20px;
+    }
+
+    .logo{
+        height: 28px;
+    }
+    .images_title{
+        height: 139px;
+    padding: 14px;
+    background-color: #141515;
+    border-radius: 10px;
+    }
+
+    .title{
+        margin: unset;
+    color: white;
+    font-family: system-ui;
+    font-size: 14px;
+    }
+    .logo_spotify{
+        height: 40px;
+    }
+    .logo_search{
+        width: 30px;
+    }
+
+    .library_container{
+        width: 325px;
+    height: 470PX;
+    padding: 14px;
+    border-radius: 10px;
+    background-color: #141515;
+    display: grid;
+    gap: 290px;
+    }
+    .library_primary_container{
+        display: flex;
+    height: 33px;
+    gap: 14px;
+    }
+    .library_logo{
+        height: 33px;
+    }
+    .library_logo_img{
+        height: 23px;
+    }
+    .library_title{
+        font-family: system-ui;
+    font-size: 17px;
+    margin: unset;
+    color: white;
+    }
+    .library_logo_plus{
+
+    }
+    .library_upper_primary_container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .signup_login_previous_next{
+        display: flex;
+    background-color: #141515;
+    width: 1140px;
+    height: 70px;
+    align-items: center;
+    border-radius: 10px;
+    gap: 780px;
+    padding-left: 28px;
+
+  }
+    .previous_next{
+        display: flex;
+    align-items: center;
+    height: 20px;
+    gap: 5px;
+    }
+    .previous{
+        padding: 8px;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    }
+    .next{
+        padding: 8px;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    }
+    .signup_login{
+        display: flex;
+    height: 40px;
+    gap: 70px;
+    }
+    .signup{
+        color: white;
+    font-family: system-ui;
+    font-size: 15px;
+    font-weight: 500;
+    width: 65px;
+    }
+    .login{
+        color: white;
+    font-family: system-ui;
+    font-size: 15px;
+    font-weight: 500;
+    width: 65px;
+
+    }
+    .fixed_container{
+        display: flex;
+        gap: 8px
+    }
+    .signup_login_title{
+
+        padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin: unset;
+    width: 65px;
+    background-color: white;
+    color: black;
+    font-family: system-ui;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+
+    }
+    .library_bottom_primary_container{
+
+    }
+    .library_botton_first_container{
+        display: flex;
+    justify-content: center;
+    gap: 27px;
+    padding-top: 18px;
+
+    }
+    .legalandprivacy{
+
+    }
+    .legalandprivacy_title{
+        margin: unset;
+    color: #aaaaaa;
+    font-size: 12px;
+    font-family: system-ui;
+    font-weight: 400;
+    }
+</style>
+
 <body>
+
+    <div class="fixed_container">
+
+        <div class="navigation_and_library">
+
+            <div class="navigation">
     
+                <div class="images_title">
+                    <div class="images">
+                        <img class="logo_spotify" src="./Assets/spo-removebg-preview.png" alt="">
+                    </div>
+            
+                    <div class="images">
+                        <img class="logo" src="./Assets/th-removebg-preview.png" alt="">
+                        <h2 class="title">Home</h2>
+                    </div>
+            
+                    <div class="images">
+                        <img class="logo_search" src="./Assets/search.png" alt="">
+                        <h2 class="title">Search</h2>
+                    </div>
+                </div>
+            
+            </div>
+        
+        
+            <div class="library_container">
+        
+                <div class="library_upper_primary_container">
+        
+                    <div class="library_primary_container">
+        
+                        <div class="library_logo">
+                            <img class="library_logo_img" src="./Assets/library.png" alt="">
+                        </div>
+            
+                        <div class="library_logo">
+                            <h2 class="library_title">Your Library</h2>
+                        </div>
+            
+                    </div>
+            
+            
+                    <div class="library_primary_container">
+                        <div class="library_logo_plus">
+                            <img class="library_logo_img" src="./Assets/Plus.png" alt="">
+                        </div>
+                    </div>
+        
+                </div>
+
+
+
+                <div class="library_bottom_primary_container">
+
+                    <div class="library_botton_first_container">
+                        <div class="legalandprivacy">
+                            <h4 class="legalandprivacy_title">Legal</h4>
+                        </div>
+
+                        <div class="legalandprivacy">
+                            <h4 class="legalandprivacy_title">Sefety & Privacy Center</h4>
+                        </div>
+
+                        <div class="legalandprivacy">
+                            <h4 class="legalandprivacy_title">Privacy Policy</h4>
+                        </div>
+
+                    </div>
+
+                    <div class="library_botton_first_container">
+                        <div class="legalandprivacy">
+                            <h4 class="legalandprivacy_title">Cookies</h4>
+                        </div>
+
+                        <div class="legalandprivacy">
+                            <h4 class="legalandprivacy_title">About Ads</h4>
+                        </div>
+
+                        <div class="legalandprivacy">
+                            <h4 class="legalandprivacy_title">Accessibility</h4>
+                        </div>
+
+                    </div>
+
+                </div>
+            
+            </div>
+    
+        </div>
+
+
+
+
+
+
+        <div class="signup_login_previous_next">
+
+            <div class="previous_next">
+                <div class="previous">
+                    🡸
+                </div>
+
+                <div class="next">
+                    🡺
+                </div>
+            </div>
+
+
+            <div class="signup_login">
+                <div class="signup">
+                    <h3 class="signup_login_title">Sign up</h3>
+                </div>
+
+                <div class="login">
+                    <h3 class="signup_login_title">Log in</h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
