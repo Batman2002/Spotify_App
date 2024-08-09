@@ -25,6 +25,11 @@ body{
     
 }
 
+.tile:hover{
+    background-color: rgba(0, 0, 0, 0.495);
+}
+
+
 .title{
     position: relative;
     right:60px;
