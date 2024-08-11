@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: gray;
+}
+
+.player-back{
+    display: flex;
+}
+
+.current,.player-main,.features{
+    height: 100px;
+    width: 33.3%;
+}
+
+
+.current{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.current>button{
+    height: 50px;
+    width: 70px;
+    margin: 10px;
+}
+
+
+.player-main{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+}
+
+.controls>button{
+    margin: 3px;
+}
+
+
+.features{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.features>button{
+    height: 50px;
+    width: 70px;
+}
