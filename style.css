@@ -46,3 +46,48 @@ body{
     position: relative;
     /* background-color: red; */
 }
+
+
+.inside{
+    width: 400px;
+    height: 550px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.upper{
+    display: flex;
+}
+
+.cover{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.bottom-buttons{
+    margin: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.bottom-buttons>button{
+    margin: 10px;
+}
+
+.details>h1{
+    margin: 10px;
+}
+
+
+.inside:hover{
+    background: linear-gradient(white,black);
+    color: black;
+}
